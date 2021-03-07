@@ -1,0 +1,51 @@
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: light;
+  color: #333333;
+  text-align: center;
+
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: green;
+}
+
+.pic {
+  padding-top: 2em;
+  flex: 1 1 auto;
+  #background: gold;
+}
+
+.main {
+  flex: 3 1 400px;
+  text-align: left;
+  #background: deepskyblue;
+}
+
+body {
+  padding: 2em;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-bottom: -10px;
+}

@@ -1,2 +1,1 @@
-# dorotheedoerr.github.io
-Dorothee Doerr personal site
+# This is the source repo for http://dorotheedoerr.github.io and dorotheedoerr.com
