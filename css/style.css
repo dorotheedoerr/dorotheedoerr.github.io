@@ -16,7 +16,7 @@
 
 }
 
-.wrapper > * {
+.wrapper>* {
   padding: 10px;
   flex: 1 100%;
 }
@@ -48,4 +48,8 @@ body {
 .img-circle {
   border-radius: 50%;
   margin-bottom: -10px;
+}
+
+h2 {
+  text-align: center;
 }
