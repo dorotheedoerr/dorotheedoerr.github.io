@@ -1,1 +1,5 @@
 .DS_Store
+
+# lokale Arbeitsdateien
+entwuerfe/
+.claude/

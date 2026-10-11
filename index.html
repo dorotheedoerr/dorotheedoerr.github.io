@@ -1,79 +1,332 @@
 <!DOCTYPE html>
-<html>
+<html lang="de" data-lang="de">
 
 <head>
   <meta charset="UTF-8">
-
-  <!-- Define viewport (http://www.w3schools.com/css/css_rwd_viewport.asp)--->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dorothee Doerr</title>
-
-  <meta name="description=" content="Dorothee Doerr personal page">
+  <meta name="description" content="Dorothee Doerr – Anästhesistin und Medizinethikerin, Vorsitzende des Klinischen Ethikkomitees der Universitätsmedizin Mannheim.">
 
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Use google font --->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2SQ5C42JD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-P2SQ5C42JD');
-  </script>
-
 </head>
 
 <body>
+  <div class="wrap">
 
-  <div class="wrapper">
+    <header>
+      <div class="name">Dorothee Doerr</div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu">
+        <a href="#werdegang"><span class="l-de">Werdegang</span><span class="l-en">Career</span><span class="l-it">Percorso</span></a>
+        <a href="#lehre"><span class="l-de">Lehre</span><span class="l-en">Teaching</span><span class="l-it">Didattica</span></a>
+        <a href="#vortraege"><span class="l-de">Vorträge</span><span class="l-en">Talks</span><span class="l-it">Relazioni</span></a>
+        <a href="#publikationen"><span class="l-de">Publikationen</span><span class="l-en">Publications</span><span class="l-it">Pubblicazioni</span></a>
+        <a href="#kontakt"><span class="l-de">Kontakt</span><span class="l-en">Contact</span><span class="l-it">Contatto</span></a>
+      </nav>
+      <div class="langs">
+        <button data-set-lang="de" title="Deutsch">DE</button><button data-set-lang="en" title="English">EN</button><button data-set-lang="it" title="Italiano">IT</button>
+      </div>
+    </header>
 
-    <pic class="pic">
-      <img class="img-circle" alt="Doroethee Doerr"
-        src="https://raw.githubusercontent.com/dorotheedoerr/dorotheedoerr.github.io/main/img/dorothee-doerr.png"
-        width="250">
-    </pic>
+    <!-- Einstieg -->
+    <div class="hero">
+      <img src="img/dorothee-doerr.png" alt="Dorothee Doerr">
+      <div>
+        <div class="hello"><span class="l-de">Willkommen</span><span class="l-en">Welcome</span><span class="l-it">Benvenuti</span></div>
+        <h1>
+          <span class="l-de">Ethik im klinischen Alltag – nah am Menschen.</span>
+          <span class="l-en">Ethics in everyday clinical care – close to people.</span>
+          <span class="l-it">Etica nella pratica clinica – vicina alle persone.</span>
+        </h1>
+        <p class="l-de">Ich bin Anästhesistin und Medizinethikerin und leite das <a href="https://www.umm.de/klinisches-ethik-komitee/">Klinische Ethikkomitee der Universitätsmedizin Mannheim</a>.</p>
+        <p class="l-en">I am an anaesthesiologist and medical ethicist and chair the <a href="https://www.umm.de/klinisches-ethik-komitee/">Clinical Ethics Committee at Mannheim University Medical Center</a>.</p>
+        <p class="l-it">Sono anestesista ed esperta di etica medica e presiedo il <a href="https://www.umm.de/klinisches-ethik-komitee/">Comitato di etica clinica del Policlinico universitario di Mannheim</a>.</p>
+        <div class="tags">
+          <span><span class="l-de">Klinische Ethikberatung</span><span class="l-en">Clinical ethics consultation</span><span class="l-it">Consulenza etica clinica</span></span>
+          <span>Advance Care Planning</span>
+        </div>
+      </div>
+    </div>
 
-    <main-content class="main">
-
-      <h2 align="center">Willkommen - Welcome - Benvenuti</h2>
-
-      <p>Ich bin Anästhesistin & Medizinethikerin und leite das <a
-          href="https://www.umm.de/klinisches-ethik-komitee/">Ethik-Komitee der Universitätsklinik Mannheim</a>.</p>
-
-      <p>Meine Schwerpunkte sind:</p>
-      <ul>
-        <li>Klinische Ethikberatung</li>
-        <li>Advance Care Planning</li>
+    <!-- Werdegang -->
+    <section id="werdegang">
+      <h2><span class="l-de">Beruflicher Werdegang</span><span class="l-en">Career</span><span class="l-it">Percorso professionale</span></h2>
+      <ul class="list">
+        <li><span class="year"><span class="l-de">seit</span><span class="l-en">since</span><span class="l-it">dal</span> 2014</span>
+          <div>
+            <span class="l-de">Vorsitzende des Klinischen Ethikkomitees der Universitätsmedizin Mannheim</span>
+            <span class="l-en">Chair of the Clinical Ethics Committee, Mannheim University Medical Center</span>
+            <span class="l-it">Presidente del Comitato di etica clinica, Policlinico universitario di Mannheim</span>
+          </div></li>
+        <li><span class="year"><span class="l-de">seit</span><span class="l-en">since</span><span class="l-it">dal</span> 2014</span>
+          <div>
+            <span class="l-de">Mitglied der Ethikkommission II der Medizinischen Fakultät Mannheim der Universität Heidelberg</span>
+            <span class="l-en">Member of Research Ethics Committee II, Medical Faculty Mannheim, Heidelberg University</span>
+            <span class="l-it">Membro del Comitato etico II della Facoltà di Medicina di Mannheim, Università di Heidelberg</span>
+          </div></li>
+        <li><span class="year"><span class="l-de">seit</span><span class="l-en">since</span><span class="l-it">dal</span> 2012</span>
+          <div>
+            <span class="l-de">Referentin für klinische Ethikberatung und Leitung des Klinischen Ethikkomitees, Universitätsmedizin Mannheim</span>
+            <span class="l-en">Clinical ethics consultant and head of the Clinical Ethics Committee, Mannheim University Medical Center</span>
+            <span class="l-it">Referente per la consulenza etica clinica e responsabile del Comitato di etica clinica, Policlinico universitario di Mannheim</span>
+          </div></li>
+        <li><span class="year">2011–2012</span>
+          <div>
+            <span class="l-de">Wissenschaftliche und ärztliche Mitarbeiterin, Klinik für Palliativmedizin, Universitätsklinikum Bonn</span>
+            <span class="l-en">Research associate and physician, Department of Palliative Medicine, University Hospital Bonn</span>
+            <span class="l-it">Ricercatrice e medico, Clinica di medicina palliativa, Policlinico universitario di Bonn</span>
+          </div></li>
+        <li><span class="year">2010–2011</span>
+          <div>
+            <span class="l-de">Wissenschaftliche Mitarbeiterin und Projektkoordinatorin, Europäische Akademie zur Erforschung von Folgen wissenschaftlich-technischer Entwicklungen, Bad Neuenahr-Ahrweiler</span>
+            <span class="l-en">Research associate and project coordinator, European Academy for the Study of Consequences of Scientific and Technological Advance, Bad Neuenahr-Ahrweiler</span>
+            <span class="l-it">Ricercatrice e coordinatrice di progetto, Accademia europea per lo studio delle conseguenze degli sviluppi tecnico-scientifici, Bad Neuenahr-Ahrweiler</span>
+          </div></li>
+        <li><span class="year">2008–2010</span>
+          <div>
+            <span class="l-de">Wissenschaftliche Mitarbeiterin im deutsch-kanadischen BMBF-Verbundprojekt „Ethische, rechtliche und soziale Aspekte der tiefen Hirnstimulation – Gesundheit, Lebensqualität und personale Identität“, Institut für Geschichte und Ethik der Medizin, Universitätsklinik Köln</span>
+            <span class="l-en">Research associate in the German–Canadian BMBF joint project on ethical, legal and social aspects of deep brain stimulation (health, quality of life and personal identity), Institute for the History and Ethics of Medicine, University Hospital Cologne</span>
+            <span class="l-it">Ricercatrice nel progetto congiunto tedesco-canadese (BMBF) sugli aspetti etici, giuridici e sociali della stimolazione cerebrale profonda (salute, qualità di vita e identità personale), Istituto di storia ed etica della medicina, Policlinico universitario di Colonia</span>
+          </div></li>
+        <li><span class="year">2001–2008</span>
+          <div>
+            <span class="l-de">Wissenschaftliche Mitarbeiterin mit funktionsoberärztlicher Tätigkeit, Klinik und Poliklinik für Anästhesiologie und Operative Intensivmedizin, Universitätsklinikum Bonn</span>
+            <span class="l-en">Research associate with acting senior physician duties, Department of Anaesthesiology and Surgical Intensive Care, University Hospital Bonn</span>
+            <span class="l-it">Ricercatrice con funzioni di dirigente medico, Clinica di anestesiologia e terapia intensiva chirurgica, Policlinico universitario di Bonn</span>
+          </div></li>
+        <li><span class="year">1995–2001</span>
+          <div>
+            <span class="l-de">Weiterbildung zur Fachärztin für Anästhesiologie, Universitätsklinikum Bonn</span>
+            <span class="l-en">Specialist training in anaesthesiology, University Hospital Bonn</span>
+            <span class="l-it">Specializzazione in anestesiologia, Policlinico universitario di Bonn</span>
+          </div></li>
       </ul>
 
-      <a href="https://dorotheedoerr.github.io/cv/dorothee-doerr.pdf"><img
-          src="https://raw.githubusercontent.com/dorotheedoerr/dorotheedoerr.github.io/main/img/cv.png" hspace=10
-          vspace=10 width="60"></a>
-      <a href="https://www.linkedin.com/in/dorothee-d%C3%B6rr-463331166"><img
-          src="https://raw.githubusercontent.com/dorotheedoerr/dorotheedoerr.github.io/main/img/linkedin.png" hspace=10
-          vspace=10 width="60"></a>
-      <a href="https://www.researchgate.net/profile/Dorothee-Doerr-2"><img
-          src="https://raw.githubusercontent.com/dorotheedoerr/dorotheedoerr.github.io/main/img/researchgate.png"
-          hspace=10 vspace=10 width="60"></a>
+      <h3><span class="l-de">Ausbildung</span><span class="l-en">Education</span><span class="l-it">Formazione</span></h3>
+      <ul class="list">
+        <li><span class="year">2010</span>
+          <div>
+            <span class="l-de">Fellow am Zentrum für interdisziplinäre Forschung (ZiF) der Universität Bielefeld, Forschungsgruppe „Herausforderung für Menschenbild und Menschenwürde durch neuere Entwicklungen der Medizintechnik“</span>
+            <span class="l-en">Fellow at the Center for Interdisciplinary Research (ZiF), Bielefeld University, research group on challenges to the concept of human nature and human dignity posed by new medical technologies</span>
+            <span class="l-it">Fellow presso il Centro di ricerca interdisciplinare (ZiF) dell'Università di Bielefeld, gruppo di ricerca sulle sfide poste dalle nuove tecnologie mediche all'immagine e alla dignità dell'uomo</span>
+          </div></li>
+        <li><span class="year">2007–2010</span>
+          <div>
+            <span class="l-de">Masterstudium Medizinethik (FernUniversität Hagen, Universität Mainz, Europäische Akademie Bad Neuenahr-Ahrweiler)</span>
+            <span class="l-en">Master's degree in Medical Ethics (FernUniversität Hagen, University of Mainz, European Academy Bad Neuenahr-Ahrweiler)</span>
+            <span class="l-it">Master in etica medica (FernUniversität Hagen, Università di Magonza, Accademia europea di Bad Neuenahr-Ahrweiler)</span>
+            <small><span class="l-de">Masterarbeit:</span><span class="l-en">Thesis:</span><span class="l-it">Tesi:</span> „Zwischen Paternalismus und kindlicher Selbstbestimmung. Die Anwendung von G. Dworkins Autonomiekonzeption auf pädiatrische Entscheidungskonflikte“</small>
+          </div></li>
+        <li><span class="year">2001</span>
+          <div>
+            <span class="l-de">Fachärztin für Anästhesiologie</span>
+            <span class="l-en">Board certification in anaesthesiology</span>
+            <span class="l-it">Specialista in anestesiologia</span>
+          </div></li>
+        <li><span class="year">1996</span>
+          <div>
+            <span class="l-de">Promotion zur Dr. med., Institut für Radiologie der Universität Bonn</span>
+            <span class="l-en">Doctorate (Dr. med.), Department of Radiology, University of Bonn</span>
+            <span class="l-it">Dottorato (Dr. med.), Istituto di radiologia, Università di Bonn</span>
+            <small>„MRT-Diagnostik von Skelettmetastasen bei Mammakarzinom und kleinzelligem Bronchialkarzinom“</small>
+          </div></li>
+        <li><span class="year">1995</span>
+          <div>
+            <span class="l-de">Approbation als Ärztin</span>
+            <span class="l-en">Licence to practise medicine</span>
+            <span class="l-it">Abilitazione all'esercizio della professione medica</span>
+          </div></li>
+        <li><span class="year">1984–1992</span>
+          <div>
+            <span class="l-de">Medizinstudium in Freiburg, Rom, Bochum und Bonn</span>
+            <span class="l-en">Medical studies in Freiburg, Rome, Bochum and Bonn</span>
+            <span class="l-it">Studi di medicina a Friburgo, Roma, Bochum e Bonn</span>
+          </div></li>
+      </ul>
 
-      <p>Kontakt:
+      <h3><span class="l-de">Mitgliedschaften und Ehrenamt</span><span class="l-en">Memberships and voluntary work</span><span class="l-it">Associazioni e volontariato</span></h3>
+      <ul class="bullets">
+        <li><span class="l-de">2. Vorsitzende des Ethikausschusses, Deutscher Ärztinnenbund e.V.</span><span class="l-en">Vice chair of the ethics committee, German Women Physicians' Association (DÄB)</span><span class="l-it">Vicepresidente della commissione etica, Associazione tedesca delle donne medico (DÄB)</span></li>
+        <li><span class="l-de">AEM – Akademie für Ethik in der Medizin, AG Ethikberatung im Gesundheitswesen</span><span class="l-en">AEM – Academy for Ethics in Medicine, working group on ethics consultation in healthcare</span><span class="l-it">AEM – Accademia per l'etica in medicina, gruppo di lavoro sulla consulenza etica in sanità</span></li>
+        <li><span class="l-de">DGAI – Deutsche Gesellschaft für Anästhesiologie und Intensivmedizin; 2010–2019 Subkomitee Ethik der Wissenschaftlichen Programmkommission des Deutschen Anästhesiecongresses</span><span class="l-en">DGAI – German Society of Anaesthesiology and Intensive Care Medicine; 2010–2019 ethics subcommittee of the scientific programme committee, German Anaesthesia Congress</span><span class="l-it">DGAI – Società tedesca di anestesiologia e terapia intensiva; 2010–2019 sottocommissione etica del comitato scientifico del Congresso tedesco di anestesia</span></li>
+        <li>ESA – European Society of Anaesthesiology</li>
+        <li><span class="l-de">BDA – Berufsverband Deutscher Anästhesisten</span><span class="l-en">BDA – Professional Association of German Anaesthesiologists</span><span class="l-it">BDA – Associazione professionale degli anestesisti tedeschi</span></li>
+        <li><span class="l-de">Ärzte ohne Grenzen e.V. (Fördermitglied)</span><span class="l-en">Médecins Sans Frontières (supporting member)</span><span class="l-it">Medici Senza Frontiere (socia sostenitrice)</span></li>
+      </ul>
+    </section>
 
-        <a href="mailto:doerrdorothee@gmail.com?Subject=Hi%20Dorothee"
-          target="_top"><strong>doerrdorothee</strong>@<strong>gmail.com</strong>
-        </a>
+    <!-- Lehre -->
+    <section id="lehre">
+      <h2><span class="l-de">Lehre</span><span class="l-en">Teaching</span><span class="l-it">Didattica</span></h2>
+      <p>
+        <span class="l-de">Seit 2012 unterrichte ich an der Universitätsmedizin Mannheim – in Fortbildungen für Ärztinnen und Ärzte, für die Pflege und in der Palliativmedizin.</span>
+        <span class="l-en">Since 2012 I have been teaching at Mannheim University Medical Center – in continuing education for physicians, for nursing staff and in palliative care.</span>
+        <span class="l-it">Dal 2012 insegno presso il Policlinico universitario di Mannheim – nella formazione continua per medici, per il personale infermieristico e nelle cure palliative.</span>
       </p>
+      <div class="teach">
+        <div>
+          <b><span class="l-de">Ärztliche Fortbildung</span><span class="l-en">Training for physicians</span><span class="l-it">Formazione per medici</span></b>
+          <ul>
+            <li><span class="l-de">Indikation und Therapiezielfindung</span><span class="l-en">Indication and setting goals of care</span><span class="l-it">Indicazione e definizione degli obiettivi di cura</span></li>
+            <li><span class="l-de">Therapiebegrenzung</span><span class="l-en">Limiting treatment</span><span class="l-it">Limitazione dei trattamenti</span></li>
+            <li><span class="l-de">Patientenverfügung und mutmaßlicher Wille</span><span class="l-en">Advance directives and presumed wishes</span><span class="l-it">Disposizioni anticipate e volontà presunta</span></li>
+            <li><span class="l-de">Arzt-Patient-Verhältnis</span><span class="l-en">The doctor–patient relationship</span><span class="l-it">Il rapporto medico-paziente</span></li>
+            <li><span class="l-de">Klinische Forschung</span><span class="l-en">Clinical research</span><span class="l-it">Ricerca clinica</span></li>
+            <li><span class="l-de">Ethik in Neonatologie und Pädiatrie</span><span class="l-en">Ethics in neonatology and paediatrics</span><span class="l-it">Etica in neonatologia e pediatria</span></li>
+          </ul>
+        </div>
+        <div>
+          <b><span class="l-de">Pflege</span><span class="l-en">Nursing</span><span class="l-it">Infermieristica</span></b>
+          <small class="note"><span class="l-de">Fachweiterbildung Nephrologie, Anästhesie und Intensivmedizin</span><span class="l-en">Specialist training in nephrology, anaesthesia and intensive care</span><span class="l-it">Specializzazione in nefrologia, anestesia e terapia intensiva</span></small>
+          <ul>
+            <li><span class="l-de">Grundlagen klinischer Ethik</span><span class="l-en">Foundations of clinical ethics</span><span class="l-it">Fondamenti di etica clinica</span></li>
+            <li><span class="l-de">Grenzbereich Intensivmedizin</span><span class="l-en">The limits of intensive care</span><span class="l-it">I limiti della terapia intensiva</span></li>
+            <li><span class="l-de">Ethik in Neonatologie und Pädiatrie</span><span class="l-en">Ethics in neonatology and paediatrics</span><span class="l-it">Etica in neonatologia e pediatria</span></li>
+            <li><span class="l-de">Ethische Fallbesprechungen strukturieren</span><span class="l-en">Structuring ethics case discussions</span><span class="l-it">Strutturare le discussioni etiche dei casi</span></li>
+          </ul>
+        </div>
+        <div>
+          <b><span class="l-de">Palliativmedizin</span><span class="l-en">Palliative care</span><span class="l-it">Cure palliative</span></b>
+          <small class="note"><span class="l-de">Palliativmedizinische Akademie der UMM, Agaplesion Akademie Heidelberg</span><span class="l-en">Palliative Care Academy (UMM), Agaplesion Academy Heidelberg</span><span class="l-it">Accademia di cure palliative (UMM), Accademia Agaplesion di Heidelberg</span></small>
+          <ul>
+            <li><span class="l-de">Grundlagen klinischer Ethik</span><span class="l-en">Foundations of clinical ethics</span><span class="l-it">Fondamenti di etica clinica</span></li>
+            <li><span class="l-de">Ethik in der Palliativmedizin</span><span class="l-en">Ethics in palliative care</span><span class="l-it">Etica nelle cure palliative</span></li>
+            <li><span class="l-de">Therapiezielfindung in der Palliativmedizin</span><span class="l-en">Setting goals of care in palliative medicine</span><span class="l-it">Definizione degli obiettivi di cura nelle cure palliative</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    </main-content>
+    <!-- Vorträge -->
+    <section id="vortraege">
+      <h2><span class="l-de">Vorträge</span><span class="l-en">Talks</span><span class="l-it">Relazioni</span></h2>
+      <p class="note l-en">Titles are given in their original language.</p>
+      <p class="note l-it">I titoli sono riportati nella lingua originale.</p>
+      <ul class="list">
+        <li><span class="year">2016</span><div>„Suizidprävention im Alter: Welchen Beitrag können Ethikberatung und Advance Care Planning leisten?“<small>Deutscher Kongress für Gerontologie und Geriatrie (DGGG), Stuttgart, 08.09.2016</small></div></li>
+        <li><span class="year">2016</span><div>„End-of-life Entscheidungen: Wahrheit oder barmherzige Lüge?“<small>Anästhesiologische Kolloquien, Helios Kliniken Wiesbaden, 05.07.2016</small></div></li>
+        <li><span class="year">2016</span><div>„Der Arzt im Spannungsfeld zwischen Autonomie und Fürsorge – kann Wahrheit schaden?“<small>63. Jahrestagung der DGAI (DAC), Leipzig, 16.04.2016</small></div></li>
+        <li><span class="year">2016</span><div>Vorsitz der Hauptsitzung „Der Umgang mit begrenzten Ressourcen – ein ethischer Konflikt?“<small>63. Jahrestagung der DGAI (DAC), Leipzig, 16.04.2016</small></div></li>
+        <li><span class="year">2016</span><div>Medizinethische Werkwoche „Medizinethische Fragen am Lebensende“<small>Ev. Akademie Bad Boll, 03.03.2016</small></div></li>
+      </ul>
+      <details>
+        <summary><span class="l-de">Alle Vorträge anzeigen</span><span class="l-en">Show all talks</span><span class="l-it">Mostra tutte le relazioni</span></summary>
+        <ul class="list">
+          <li><span class="year">2016</span><div>„Qualifizierte Ethikberatung als Hilfe bei intensivmedizinischen Entscheidungskonflikten“<small>26. Symposium Intensivmedizin &amp; Intensivpflege, Bremen, 26.02.2016</small></div></li>
+          <li><span class="year">2016</span><div>Vorsitz der Session „Das Problem der individuellen Therapieentscheidung – Chancen und Grenzen“<small>26. Symposium Intensivmedizin &amp; Intensivpflege, Bremen, 25.02.2016</small></div></li>
+          <li><span class="year">2015</span><div>„Menschenwürde und Intensivmedizin“<small>7. Ethiktag der Universitätsmedizin Mainz, 20.11.2015</small></div></li>
+          <li><span class="year">2015</span><div>„Ethische Aspekte in der Intensivmedizin“<small>ICU-Beginner-Kurs, Universitätsklinikum Tübingen, 25.09.2015</small></div></li>
+          <li><span class="year">2015</span><div>Moderation des Workshops „Social freezing – emanzipativ oder kollektiv falsch?“<small>34. Kongress des Deutschen Ärztinnenbundes, Ärztekammer Nordrhein, Düsseldorf, 19.09.2015</small></div></li>
+          <li><span class="year">2015</span><div>„Gewissenskonflikte und Ethik am Beginn menschlichen Lebens“<small>Workshop des Klinischen Ethikkomitees mit dem EFI-Projekt „Human Rights in Healthcare“, Universitätsklinikum Erlangen, 20.05.2015</small></div></li>
+          <li><span class="year">2015</span><div>Vorsitz der Session „Ethikberatung – Auslauf- oder Zukunftsmodell?“<small>62. Jahrestagung der DGAI (DAC), Düsseldorf, 07.05.2015</small></div></li>
+          <li><span class="year">2015</span><div>„Der ärztlich assistierte Suizid – Die ethische Dimension und die aktuelle Diskussion“<small>25. Symposium Intensivmedizin und Intensivpflege, Bremen, 20.02.2015</small></div></li>
+          <li><span class="year">2015</span><div>„Wahrheitssuche, wenn der Patient sich nicht äußern kann: Die Möglichkeit der ethischen Fallberatung“<small>25. Symposium Intensivmedizin und Intensivpflege, Bremen, 19.02.2015</small></div></li>
+          <li><span class="year">2014</span><div>„Ethische Entscheidungen in Grenzsituationen“<small>1. Symposium der Klinik für Neonatologie, Universitätsmedizin Mannheim, 29.11.2014</small></div></li>
+          <li><span class="year">2014</span><div>„Umgang mit wenig Evidenz – Abwägung im Einzelfall“<small>Forum Neuroradiologicum, Heinrich Pesch Haus, Ludwigshafen, 21.11.2014</small></div></li>
+          <li><span class="year">2014</span><div>Fallforum „Erfahrung und Ethikberatung“<small>13. Ethiktag „Demenz und Ethik in der Medizin“, Universitätsklinikum Erlangen, 18.10.2014</small></div></li>
+          <li><span class="year">2014</span><div>„Patientenverfügung und Patientenwille. Deaktivierung von Herzschrittmachern und ICD – Medizinethische Aspekte“<small>Sommerfortbildung Innere Medizin, Universitätsmedizin Mannheim, 05.07.2014</small></div></li>
+          <li><span class="year">2014</span><div>Fallkonferenz „7-jähriger Patient mit AML und protrahierter Sepsis – ein ethisches Dilemma“<small>Deutscher Anästhesiecongress (DAC), Leipzig, 08.05.2014</small></div></li>
+          <li><span class="year">2014</span><div>„Behandlungsziele moderner Medizin: Lebensqualität, Autonomie, Vertrauen“<small>Netzwerkdialog BPW, DÄB, DJB, HDU „Jenseits des Schocks: Wenn Krankheit das Leben ändert“, Deutsch-Amerikanisches Institut Heidelberg, 04.04.2014</small></div></li>
+          <li><span class="year">2014</span><div>„Ethik – Moral – Ethos: Was brauchen wir am Krankenbett wirklich?“<small>24. Symposium Intensivmedizin und Intensivpflege, Bremen, 21.02.2014</small></div></li>
+          <li><span class="year">2014</span><div>„Ethikberatung – Hürde oder Chance?“<small>HIFIT 2014, Heidelberger Interdisziplinäres Forum Intensivtherapie, 17.01.2014</small></div></li>
+          <li><span class="year">2013</span><div>„Patientenverfügung mit Organspendeausweis – denkbar oder widersprüchlich?“<small>DIVI 2013, Leipzig, 05.12.2013</small></div></li>
+          <li><span class="year">2013</span><div>„Therapiebegrenzung – Entscheidungsfindung aus ethischer Sicht“<small>Onkologischer Arbeitskreis, Universitätsmedizin Mannheim, 30.04.2013</small></div></li>
+          <li><span class="year">2013</span><div>„Patientenverfügung – Hilfe oder Hindernis? Klinisch-ethisches Update“<small>Nephrologischer Abend, Universitätsmedizin Mannheim, 21.03.2013</small></div></li>
+          <li><span class="year">2013</span><div>„Aktiv, passiv oder gar nichts – was ist Sterbehilfe?“<small>23. Symposium Intensivmedizin und Intensivpflege, Bremen, 15.02.2013</small></div></li>
+          <li><span class="year">2011</span><div>“Nano-enabled medicine. Tension and chances of early diagnosis and therapy”<small>3rd scientific NanoDiaRA project meeting, Fribourg (CH), 02.03.2011</small></div></li>
+          <li><span class="year">2011</span><div>„Herausforderungen neuer Technologien“<small>Seminar „Das Gesundheitssystem in der Diskussion – Ethik und Wettbewerb“, Theodor-Heuss-Akademie, Gummersbach, 29.01.2011</small></div></li>
+          <li><span class="year">2010</span><div>“Quality of life judgements in geriatric intensive care”<small>International Conference “Ethics for an Ageing World”, University of Greifswald, Usedom, 25.09.2010</small></div></li>
+          <li><span class="year">2010</span><div>„Lebensqualität als Leitgröße für eine patientenzentrierte medizinische Versorgung“<small>57. Deutscher Anästhesiecongress (DAC), Nürnberg, 21.06.2010</small></div></li>
+          <li><span class="year">2010</span><div>„Entscheidungen über Therapiebegrenzung auf der Intensivstation“<small>Kongress Ernährung 2010, 9. Dreiländertagung der DGEM, Leipzig, 17.06.2010</small></div></li>
+          <li><span class="year">2010</span><div>„Lebensqualität als Handlungsorientierung in der Intensivmedizin“<small>ZiF-Forschungsgruppe, Universität Bielefeld, 08.06.2010</small></div></li>
+          <li><span class="year">2010</span><div>„Einfluss der tiefen Hirnstimulation auf die Lebensqualität von Parkinsonpatienten – erwünschter Therapieeffekt oder unerwünschte Nebenwirkung?“<small>Expert-Workshop „Inkorporierte Technik in der Medizin“, RWTH Aachen, 28.05.2010</small></div></li>
+          <li><span class="year">2010</span><div>„Therapiebegrenzung, was ist ethisch zu rechtfertigen? Ethische Implikationen der Technisierung der Intensivmedizin“<small>20. Symposium Intensivmedizin und Intensivpflege, Bremen, 19.02.2010</small></div></li>
+        </ul>
+      </details>
+    </section>
 
+    <!-- Publikationen -->
+    <section id="publikationen">
+      <h2><span class="l-de">Publikationen</span><span class="l-en">Publications</span><span class="l-it">Pubblicazioni</span></h2>
+      <p class="note l-en">Titles are given in their original language.</p>
+      <p class="note l-it">I titoli sono riportati nella lingua originale.</p>
+      <ul class="list">
+        <li><span class="year">2016</span><div>„End-of-life decisions in acute stroke patients: an observational cohort study“<small>Alonso A, Ebert AD, Dörr D, Buchheidt D, Hennerici M, Szabo K · BMC Palliative Care 15:38</small></div></li>
+        <li><span class="year">2016</span><div>„Interessen- und Gewissenskonflikte am Lebensbeginn – Zu Entscheidungen über intrauterines und neugeborenes Leben“<small>Dörr D · In: Frewer A, Bergemann L, Jäger C (Hrsg.): Interessen und Gewissen. Jahrbuch Ethik in der Klinik, Bd. 9, 189–204</small></div></li>
+        <li><span class="year">2016</span><div>„Zum Umgang mit Errungenschaften der Neonatologie – Reflexionen aus der Praxis“<small>Dörr D · In: Hruschka J, Joerden JC (Hrsg.): Jahrbuch für Recht und Ethik 2016, Duncker &amp; Humblot</small></div></li>
+        <li><span class="year">2015</span><div>„Ethikberatung – Hürde oder Chance?“<small>Dörr D, Britsch S · In: Eckart, Forst, Briegel: Intensivmedizin. Kompendium und Repetitorium, 70. Erg.-Lfg., XIV-14.1, 1–7</small></div></li>
+        <li><span class="year">2013</span><div>„Menschenwürde und Intensivmedizin – Lebensqualitätsbewertung und die Funktion des Menschenwürdeprinzips“<small>Dörr D · In: Joerden J, Hilgendorf E, Thiele F (Hrsg.): Handbuch Menschenwürde und Medizin, Duncker &amp; Humblot, 799–812</small></div></li>
+      </ul>
+      <details>
+        <summary><span class="l-de">Alle Publikationen anzeigen</span><span class="l-en">Show all publications</span><span class="l-it">Mostra tutte le pubblicazioni</span></summary>
+        <ul class="list">
+          <li><span class="year">2016</span><div>„Lebensqualitätsbewertung in der Intensivmedizin“<small>Dörr D · In: Salomon F (Hrsg.): Praxisbuch Ethik in der Intensivmedizin, Wissenschaftliche Buchgesellschaft, 3. Auflage</small></div></li>
+          <li><span class="year">–</span><div>„An appraisal of advance directives given by patients with fatal acute stroke: an observational cohort study“<small>Alonso A, Dörr D, Szabo K · BMC Medical Ethics (eingereicht)</small></div></li>
+          <li><span class="year">2015</span><div>„Ethikberatung und Erfahrung. Komparative Konsultationen zu Demenzfällen“<small>Frewer A, Preuß D, Dörr D · In: Frewer A, Bergemann L, Schmidhuber M (Hrsg.): Demenz und Ethik in der Medizin. Jahrbuch Ethik in der Klinik, Bd. 8, Königshausen &amp; Neumann, 129–132</small></div></li>
+          <li><span class="year">2015</span><div>„Kommentar zu Fall 2: Therapieziele bei multimorbider, phasenweise orientierter Patientin mit Sterbewunsch?“<small>Dörr D, Gehrlein M · In: Jahrbuch Ethik in der Klinik, Bd. 8, Königshausen &amp; Neumann, 149–153</small></div></li>
+          <li><span class="year">2015</span><div>„Die Auflösung der drei Fälle. Hintergründe zur ethischen Entscheidungsfindung“<small>Dörr D, Welsch B, Hahn J · In: Jahrbuch Ethik in der Klinik, Bd. 8, Königshausen &amp; Neumann, 179–188</small></div></li>
+          <li><span class="year">2015</span><div>„Ethische Konfliktberatung in der Klinik“<small>Interview · ÄRZTIN 62(3):13</small></div></li>
+          <li><span class="year">2014</span><div>„Priorisierung in der Medizin. Erste Ergebnisse einer Onlinebefragung des Deutschen Ärztinnenbundes“<small>Dörr D, du Bois G, Diederich A · Ärztin 61(3):120–121</small></div></li>
+          <li><span class="year">2013</span><div>„Integrierte Ethikberatung – Ein Qualitätskriterium moderner Intensivmedizin“<small>Dörr D, Kirschning T, Münz B, Schaible T · In: Kuckelt W, Tonner PH (Hrsg.): Jahrbuch Intensivmedizin 2014, Pabst Science Publishers, 193–203</small></div></li>
+          <li><span class="year">2012</span><div>„Lebensqualitätsbewertung in der Intensivmedizin“<small>Dörr D · In: Salomon F (Hrsg.): Praxisbuch Ethik in der Intensivmedizin, Wissenschaftliche Buchgesellschaft, 2. Auflage, 79–93</small></div></li>
+          <li><span class="year">2011</span><div>“The dependency of medical care on dependable quality of life assessment – A critical inventory”<small>Dörr D · Focus, Newsletter 107, Europäische Akademie GmbH</small></div></li>
+          <li><span class="year">2010</span><div>“Outlining ethical issues in medical application of nanotechnologies”<small>Dörr D, Thiele F · Focus, Newsletter 102, Europäische Akademie GmbH</small></div></li>
+          <li><span class="year">2010</span><div>„Einfluss der tiefen Hirnstimulation auf die Lebensqualität von Parkinsonpatienten“<small>Dörr D · In: Groß D, Gründer G, Simonovic V (Hrsg.): Akzeptanz, Nutzungsbarrieren und ethische Implikationen neuer Medizintechnologien, University Press Kassel, 133–136</small></div></li>
+          <li><span class="year">2007</span><div>“Atelectasis in children undergoing either propofol infusion or positive pressure ventilation anesthesia for magnetic resonance imaging”<small>Lutterbey G, Wattjes MP, Doerr D, Fischer NJ, Gieseke J, Schild HH · Paediatric Anaesthesia 17(2):121–125</small></div></li>
+          <li><span class="year">1994</span><div>„MRT und Knochenmarkszintigraphie im Screening von Skelettmetastasen bei Patientinnen mit Mammakarzinom“<small>Layer G, Rieker O, Dörr D, Schnakenberg D, Steudel A, Reiser M · Fortschr Röntgenstr 160(5):448–452 · <a href="https://doi.org/10.1055/s-2008-1032456">DOI</a></small></div></li>
+        </ul>
+
+        <h3>Extended Abstracts</h3>
+        <ul class="list">
+          <li><span class="year">2015</span><div>“End-of-life decisions and palliative care in acute stroke patients”<small>Alonso A, Dörr D, Hennerici MG, Szabo K · 24th European Stroke Conference, Wien</small></div></li>
+          <li><span class="year">2014</span><div>„Ethik – Moral – Ethos: Was brauchen wir am Krankenbett wirklich?“<small>Journal für Anästhesie und Intensivbehandlung, Pabst Science Publishers</small></div></li>
+          <li><span class="year">2013</span><div>„Aktiv, passiv oder gar nichts – was ist Sterbehilfe?“<small>Journal für Anästhesie und Intensivbehandlung, Pabst Science Publishers</small></div></li>
+          <li><span class="year">2010</span><div>“Quality of life judgements in geriatric intensive care”<small>Journal für Anästhesie und Intensivbehandlung 17(3):37–38</small></div></li>
+          <li><span class="year">2010</span><div>„Lebensqualität in der Intensivmedizin“<small>Anästhesiologie &amp; Intensivmedizin 51(6):735</small></div></li>
+          <li><span class="year">2010</span><div>„Therapiebegrenzung: Was ist ethisch zu rechtfertigen?“<small>Journal für Anästhesie und Intensivbehandlung, 28–30</small></div></li>
+          <li><span class="year">2010</span><div>„Entscheidungen über Therapiebegrenzung in der Intensivmedizin“<small>Aktuelle Ernährungsmedizin 35(6):140, Thieme</small></div></li>
+          <li><span class="year">2010</span><div>„Lebensqualität als Leitgröße für eine patientenzentrierte medizinische Versorgung“<small>Abstractband Deutscher Anästhesiecongress 2010</small></div></li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+      <div class="contact">
+        <h2><span class="l-de">Kontakt</span><span class="l-en">Contact</span><span class="l-it">Contatto</span></h2>
+        <p>
+          <span class="l-de">Ich freue mich über Ihre Nachricht – ob zu Ethikberatung, Vorträgen oder Zusammenarbeit.</span>
+          <span class="l-en">I look forward to hearing from you – about ethics consultation, talks or collaboration.</span>
+          <span class="l-it">Sarò lieta di ricevere un vostro messaggio – su consulenza etica, relazioni o collaborazioni.</span>
+        </p>
+        <a href="mailto:doerrdorothee@gmail.com"><strong>doerrdorothee@gmail.com</strong></a>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/dorothee-d%C3%B6rr-463331166">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Dorothee-Doerr-2">ResearchGate</a>
+        </div>
+      </div>
+    </section>
   </div>
 
+  <footer>
+    © Dorothee Doerr ·
+    <a href="impressum.html"><span class="l-de">Impressum</span><span class="l-en">Legal notice</span><span class="l-it">Note legali</span></a> ·
+    <a href="datenschutz.html"><span class="l-de">Datenschutz</span><span class="l-en">Privacy</span><span class="l-it">Privacy</span></a> ·
+    <button data-cookie-settings><span class="l-de">Cookie-Einstellungen</span><span class="l-en">Cookie settings</span><span class="l-it">Impostazioni cookie</span></button>
+  </footer>
+
+  <div class="cookie" hidden>
+    <span class="l-de">Darf ich Google Analytics nutzen, um anonyme Besuchsstatistiken zu erstellen? Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</span>
+    <span class="l-en">May I use Google Analytics to collect anonymous visitor statistics? See the <a href="datenschutz.html">privacy policy</a>.</span>
+    <span class="l-it">Posso usare Google Analytics per raccogliere statistiche anonime sulle visite? Vedi l'<a href="datenschutz.html">informativa sulla privacy</a>.</span>
+    <br>
+    <button class="yes" data-consent="yes"><span class="l-de">Akzeptieren</span><span class="l-en">Accept</span><span class="l-it">Accetta</span></button>
+    <button data-consent="no"><span class="l-de">Ablehnen</span><span class="l-en">Decline</span><span class="l-it">Rifiuta</span></button>
+  </div>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
