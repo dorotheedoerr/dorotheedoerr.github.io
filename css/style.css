@@ -60,7 +60,6 @@ h3 { font-weight: 700; font-size: 1.1rem; margin: 32px 0 8px; color: var(--sage)
 .teach div { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
 .teach b { display: block; margin-bottom: 6px; }
 .teach ul { margin: 0; padding-left: 18px; font-size: .95rem; }
-.teach small { display: block; margin: 0 0 8px; color: var(--muted); font-size: .85rem; line-height: 1.4; }
 
 details summary { cursor: pointer; color: var(--sage); font-weight: 600; padding: 14px 0; list-style: none; }
 details summary::-webkit-details-marker { display: none; }
