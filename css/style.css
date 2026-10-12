@@ -70,7 +70,6 @@ h1 { font-weight: 700; font-size: 2.5rem; line-height: 1.12; letter-spacing: -.0
   font-weight: 600; letter-spacing: -.015em; }
 .quote blockquote::before { content: ""; display: block; width: 48px; height: 3px; margin: 0 auto 24px;
   background: var(--sage); border-radius: 2px; }
-.quote-translation { margin: 14px auto 0; max-width: 560px; color: var(--muted); font-size: 1rem; font-style: italic; }
 .quote figcaption { margin-top: 16px; color: var(--sage); font-weight: 600; font-size: .95rem; }
 
 /* Abschnitte */
