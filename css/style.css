@@ -70,7 +70,7 @@ h1 { font-weight: 700; font-size: 2.5rem; line-height: 1.12; letter-spacing: -.0
   font-style: italic; color: var(--muted); }
 .quote blockquote::before { content: ""; display: block; width: 24px; height: 2px; margin: 0 auto 12px;
   background: var(--sage); border-radius: 2px; opacity: .7; }
-.quote figcaption { margin-top: 6px; color: var(--muted); font-size: .82rem; }
+.quote figcaption { margin-top: 6px; color: var(--sage); font-size: .82rem; }
 
 /* Abschnitte */
 section { padding: 48px 0; border-top: 1px solid var(--line); }
